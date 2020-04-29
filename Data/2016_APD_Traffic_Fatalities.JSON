@@ -1,0 +1,1488 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "tiqb-wv3c",
+      "name" : "2016 APD Traffic Fatalities",
+      "averageRating" : 0,
+      "category" : "Public Safety",
+      "createdAt" : 1521042275,
+      "description" : "A description of traffic fatalities in Austin in 2016.  \nAUSTIN POLICE DEPARTMENT DATA DISCLAIMER\n1. The data provided are for informational use only and may differ from official APD crime data.\n2. APD’s crime database is continuously updated, so reports run at different times may produce different results. Care should be taken when comparing against other reports as different data collection methods and different data sources may have been used.\n3. The Austin Police Department does not assume any liability for any decision made or action taken or not taken by the recipient in reliance upon any information or data provided.\nThe Austin Police Department Fatality database contains only those crashes investigated by APD and is continuously being updated due to on-going investigations. The data provided here represents a snapshot of Traffic Fatality information at a specific point in time and may change. Due to the long processing times for toxicology testing, impairment and suspected impairment, statistics are based on the initial assessment of the Detectives and Medical Examiner.",
+      "displayType" : "table",
+      "downloadCount" : 577,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1521042450,
+      "licenseId" : "PUBLIC_DOMAIN",
+      "locale" : "en_US",
+      "newBackend" : true,
+      "numberOfComments" : 0,
+      "oid" : 28214111,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1521042372,
+      "publicationGroup" : 14935110,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1521042281,
+      "rowsUpdatedBy" : "q374-e9d9",
+      "tableId" : 14935110,
+      "totalTimesRated" : 0,
+      "viewCount" : 4218,
+      "viewLastModified" : 1564420792,
+      "viewType" : "tabular",
+      "approvals" : [ {
+        "reviewedAt" : 1521042372,
+        "reviewedAutomatically" : true,
+        "state" : "approved",
+        "submissionId" : 677134,
+        "submissionObject" : "public_audience_request",
+        "submissionOutcome" : "change_audience",
+        "submittedAt" : 1521042372,
+        "workflowId" : 2020,
+        "submissionDetails" : {
+          "permissionType" : "READ"
+        },
+        "submissionOutcomeApplication" : {
+          "failureCount" : 0,
+          "status" : "success"
+        },
+        "submitter" : {
+          "id" : "q374-e9d9",
+          "displayName" : "Ron MacKay"
+        }
+      } ],
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 349688573,
+        "name" : "TYPE",
+        "dataTypeName" : "text",
+        "fieldName" : "type",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 62397767,
+        "width" : 148,
+        "cachedContents" : {
+          "largest" : "Pedestrian",
+          "non_null" : 77,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Pedestrian",
+            "count" : 20
+          }, {
+            "item" : "Motor Vehicle",
+            "count" : 19
+          }, {
+            "item" : "Motorcycle",
+            "count" : 18
+          }, {
+            "item" : "Bicycle",
+            "count" : 17
+          } ],
+          "smallest" : "Bicycle"
+        },
+        "format" : { }
+      }, {
+        "id" : 349688574,
+        "name" : "FATAL CRASH Number",
+        "dataTypeName" : "number",
+        "fieldName" : "fatal_crash_number",
+        "position" : 2,
+        "renderTypeName" : "number",
+        "tableColumnId" : 62397768,
+        "width" : 316,
+        "cachedContents" : {
+          "largest" : "77",
+          "non_null" : 77,
+          "average" : "39",
+          "null" : 0,
+          "top" : [ {
+            "item" : "42",
+            "count" : 20
+          }, {
+            "item" : "43",
+            "count" : 19
+          }, {
+            "item" : "44",
+            "count" : 18
+          }, {
+            "item" : "45",
+            "count" : 17
+          }, {
+            "item" : "46",
+            "count" : 16
+          }, {
+            "item" : "47",
+            "count" : 15
+          }, {
+            "item" : "48",
+            "count" : 14
+          }, {
+            "item" : "49",
+            "count" : 13
+          }, {
+            "item" : "50",
+            "count" : 12
+          }, {
+            "item" : "51",
+            "count" : 11
+          }, {
+            "item" : "52",
+            "count" : 10
+          }, {
+            "item" : "53",
+            "count" : 9
+          }, {
+            "item" : "54",
+            "count" : 8
+          }, {
+            "item" : "55",
+            "count" : 7
+          }, {
+            "item" : "56",
+            "count" : 6
+          }, {
+            "item" : "57",
+            "count" : 5
+          }, {
+            "item" : "58",
+            "count" : 4
+          }, {
+            "item" : "59",
+            "count" : 3
+          }, {
+            "item" : "60",
+            "count" : 2
+          }, {
+            "item" : "61",
+            "count" : 1
+          } ],
+          "smallest" : "1",
+          "sum" : "3003"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 349688575,
+        "name" : "Number of Fatalities",
+        "dataTypeName" : "number",
+        "fieldName" : "number_of_fatalities",
+        "position" : 3,
+        "renderTypeName" : "number",
+        "tableColumnId" : 62397769,
+        "width" : 340,
+        "cachedContents" : {
+          "largest" : "2",
+          "non_null" : 77,
+          "average" : "1.025974025974026",
+          "null" : 0,
+          "top" : [ {
+            "item" : "1",
+            "count" : 20
+          }, {
+            "item" : "2",
+            "count" : 19
+          } ],
+          "smallest" : "1",
+          "sum" : "79"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 349688576,
+        "name" : "CASE NUMBER",
+        "dataTypeName" : "text",
+        "fieldName" : "case_number",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 62397770,
+        "width" : 232,
+        "cachedContents" : {
+          "largest" : "16-3581664",
+          "non_null" : 77,
+          "null" : 0,
+          "top" : [ {
+            "item" : "16-2321719",
+            "count" : 20
+          }, {
+            "item" : "16-2330343",
+            "count" : 19
+          }, {
+            "item" : "16-2331844",
+            "count" : 18
+          }, {
+            "item" : "16-2360858",
+            "count" : 17
+          }, {
+            "item" : "16-2431548",
+            "count" : 16
+          }, {
+            "item" : "16-2450740",
+            "count" : 15
+          }, {
+            "item" : "16-2540406",
+            "count" : 14
+          }, {
+            "item" : "16-2541081",
+            "count" : 13
+          }, {
+            "item" : "16-2621675",
+            "count" : 12
+          }, {
+            "item" : "16-2631318",
+            "count" : 11
+          }, {
+            "item" : "16-2720145",
+            "count" : 10
+          }, {
+            "item" : "16-2760037",
+            "count" : 9
+          }, {
+            "item" : "16-2861999",
+            "count" : 8
+          }, {
+            "item" : "16-2890341",
+            "count" : 7
+          }, {
+            "item" : "16-2870420",
+            "count" : 6
+          }, {
+            "item" : "16-2930162",
+            "count" : 5
+          }, {
+            "item" : "16-3000186",
+            "count" : 4
+          }, {
+            "item" : "16-3000728",
+            "count" : 3
+          }, {
+            "item" : "16-3100481",
+            "count" : 2
+          }, {
+            "item" : "16-3131560",
+            "count" : 1
+          } ],
+          "smallest" : "16-0061621"
+        },
+        "format" : { }
+      }, {
+        "id" : 349688577,
+        "name" : "LOCATION",
+        "dataTypeName" : "text",
+        "fieldName" : "location",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 62397771,
+        "width" : 196,
+        "cachedContents" : {
+          "largest" : "W US 290 EB to S Mopac",
+          "non_null" : 77,
+          "null" : 0,
+          "top" : [ {
+            "item" : "3300 blk S IH35 NB Svrd",
+            "count" : 20
+          }, {
+            "item" : "15000 Blk N IH35 SVRD SB",
+            "count" : 19
+          }, {
+            "item" : "Wm Cannon/Bill Hughes Rd",
+            "count" : 18
+          }, {
+            "item" : "2400 Blk of W. Anderson Ln",
+            "count" : 17
+          }, {
+            "item" : "10800 N Mopac",
+            "count" : 16
+          }, {
+            "item" : "8300 blk Burnet Rd",
+            "count" : 15
+          }, {
+            "item" : "2610 N. Capital of Texas Hwy",
+            "count" : 14
+          }, {
+            "item" : "8900 N. FM 620/Boulder Ln",
+            "count" : 13
+          }, {
+            "item" : "South 1st/St Elmo",
+            "count" : 12
+          }, {
+            "item" : "6800 Blk Southwest Pkwy",
+            "count" : 11
+          }, {
+            "item" : "5000 N Mopac Expy SB",
+            "count" : 10
+          }, {
+            "item" : "7500 blk Cameron Rd",
+            "count" : 9
+          }, {
+            "item" : "6700 blk Metropolis",
+            "count" : 8
+          }, {
+            "item" : "5700 blk S Mopac NB",
+            "count" : 7
+          }, {
+            "item" : "W US 290 EB to S Mopac",
+            "count" : 6
+          }, {
+            "item" : "2500 blk S IH35 SB",
+            "count" : 5
+          }, {
+            "item" : "1400 W Koenig Ln",
+            "count" : 4
+          }, {
+            "item" : "10000 Manchaca Rd",
+            "count" : 3
+          }, {
+            "item" : "5200 W US 290 HWY EB",
+            "count" : 2
+          }, {
+            "item" : "8900 N LAMAR BLVD ",
+            "count" : 1
+          } ],
+          "smallest" : "10000 E US 290 Hwy SVRD EB"
+        },
+        "format" : { }
+      }, {
+        "id" : 349688578,
+        "name" : "AREA",
+        "dataTypeName" : "text",
+        "fieldName" : "area",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 62397772,
+        "width" : 148,
+        "cachedContents" : {
+          "largest" : "ID",
+          "non_null" : 77,
+          "null" : 0,
+          "top" : [ {
+            "item" : "AD",
+            "count" : 20
+          }, {
+            "item" : "HE",
+            "count" : 19
+          }, {
+            "item" : "FR",
+            "count" : 18
+          }, {
+            "item" : "ED",
+            "count" : 17
+          }, {
+            "item" : "BA",
+            "count" : 16
+          }, {
+            "item" : "CH",
+            "count" : 15
+          }, {
+            "item" : "GE",
+            "count" : 14
+          }, {
+            "item" : "ID",
+            "count" : 13
+          }, {
+            "item" : "DA",
+            "count" : 12
+          } ],
+          "smallest" : "AD"
+        },
+        "format" : { }
+      }, {
+        "id" : 349688579,
+        "name" : "Date",
+        "dataTypeName" : "calendar_date",
+        "fieldName" : "date",
+        "position" : 7,
+        "renderTypeName" : "calendar_date",
+        "tableColumnId" : 62397773,
+        "width" : 148,
+        "cachedContents" : {
+          "largest" : "2016-12-23T00:00:00",
+          "non_null" : 77,
+          "null" : 0,
+          "top" : [ {
+            "item" : "2016-02-14T00:00:00",
+            "count" : 20
+          }, {
+            "item" : "2016-07-10T00:00:00",
+            "count" : 19
+          }, {
+            "item" : "2016-08-20T00:00:00",
+            "count" : 18
+          }, {
+            "item" : "2016-08-30T00:00:00",
+            "count" : 17
+          }, {
+            "item" : "2016-09-01T00:00:00",
+            "count" : 16
+          }, {
+            "item" : "2016-09-10T00:00:00",
+            "count" : 15
+          }, {
+            "item" : "2016-09-18T00:00:00",
+            "count" : 14
+          }, {
+            "item" : "2016-09-19T00:00:00",
+            "count" : 13
+          }, {
+            "item" : "2016-09-28T00:00:00",
+            "count" : 12
+          }, {
+            "item" : "2016-10-02T00:00:00",
+            "count" : 11
+          }, {
+            "item" : "2016-10-12T00:00:00",
+            "count" : 10
+          }, {
+            "item" : "2016-10-15T00:00:00",
+            "count" : 9
+          }, {
+            "item" : "2016-10-13T00:00:00",
+            "count" : 8
+          }, {
+            "item" : "2016-10-19T00:00:00",
+            "count" : 7
+          }, {
+            "item" : "2016-10-26T00:00:00",
+            "count" : 6
+          }, {
+            "item" : "2016-11-05T00:00:00",
+            "count" : 5
+          }, {
+            "item" : "2016-11-08T00:00:00",
+            "count" : 4
+          }, {
+            "item" : "2016-11-11T00:00:00",
+            "count" : 3
+          }, {
+            "item" : "2016-11-16T00:00:00",
+            "count" : 2
+          }, {
+            "item" : "2016-11-06T00:00:00",
+            "count" : 1
+          } ],
+          "smallest" : "2016-01-06T00:00:00"
+        },
+        "format" : {
+          "view" : "date"
+        }
+      }, {
+        "id" : 349688580,
+        "name" : "Month",
+        "dataTypeName" : "text",
+        "fieldName" : "month",
+        "position" : 8,
+        "renderTypeName" : "text",
+        "tableColumnId" : 62397774,
+        "width" : 160,
+        "cachedContents" : {
+          "largest" : "Sep",
+          "non_null" : 77,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Jan",
+            "count" : 20
+          }, {
+            "item" : "Feb",
+            "count" : 19
+          }, {
+            "item" : "Mar",
+            "count" : 18
+          }, {
+            "item" : "Apr",
+            "count" : 17
+          }, {
+            "item" : "May",
+            "count" : 16
+          }, {
+            "item" : "Jun",
+            "count" : 15
+          }, {
+            "item" : "Jul",
+            "count" : 14
+          }, {
+            "item" : "Aug",
+            "count" : 13
+          }, {
+            "item" : "Sep",
+            "count" : 12
+          }, {
+            "item" : "Oct",
+            "count" : 11
+          }, {
+            "item" : "Nov",
+            "count" : 10
+          }, {
+            "item" : "Dec",
+            "count" : 9
+          } ],
+          "smallest" : "Apr"
+        },
+        "format" : { }
+      }, {
+        "id" : 349688581,
+        "name" : "Day",
+        "dataTypeName" : "text",
+        "fieldName" : "day",
+        "position" : 9,
+        "renderTypeName" : "text",
+        "tableColumnId" : 62397775,
+        "width" : 136,
+        "cachedContents" : {
+          "largest" : "Wed",
+          "non_null" : 77,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Wed",
+            "count" : 20
+          }, {
+            "item" : "Thu",
+            "count" : 19
+          }, {
+            "item" : "Fri",
+            "count" : 18
+          }, {
+            "item" : "Sat",
+            "count" : 17
+          }, {
+            "item" : "Sun",
+            "count" : 16
+          }, {
+            "item" : "Tue",
+            "count" : 15
+          }, {
+            "item" : "Mon",
+            "count" : 14
+          } ],
+          "smallest" : "Fri"
+        },
+        "format" : { }
+      }, {
+        "id" : 349688582,
+        "name" : "Hour",
+        "dataTypeName" : "number",
+        "fieldName" : "hour",
+        "position" : 10,
+        "renderTypeName" : "number",
+        "tableColumnId" : 62397776,
+        "width" : 148,
+        "cachedContents" : {
+          "largest" : "23",
+          "non_null" : 77,
+          "average" : "12.63636363636364",
+          "null" : 0,
+          "top" : [ {
+            "item" : "23",
+            "count" : 20
+          }, {
+            "item" : "14",
+            "count" : 19
+          }, {
+            "item" : "20",
+            "count" : 18
+          }, {
+            "item" : "2",
+            "count" : 17
+          }, {
+            "item" : "19",
+            "count" : 16
+          }, {
+            "item" : "13",
+            "count" : 15
+          }, {
+            "item" : "9",
+            "count" : 14
+          }, {
+            "item" : "10",
+            "count" : 13
+          }, {
+            "item" : "5",
+            "count" : 12
+          }, {
+            "item" : "0",
+            "count" : 11
+          }, {
+            "item" : "8",
+            "count" : 10
+          }, {
+            "item" : "18",
+            "count" : 9
+          }, {
+            "item" : "12",
+            "count" : 8
+          }, {
+            "item" : "6",
+            "count" : 7
+          }, {
+            "item" : "3",
+            "count" : 6
+          }, {
+            "item" : "17",
+            "count" : 5
+          }, {
+            "item" : "22",
+            "count" : 4
+          }, {
+            "item" : "15",
+            "count" : 3
+          }, {
+            "item" : "16",
+            "count" : 2
+          }, {
+            "item" : "11",
+            "count" : 1
+          } ],
+          "smallest" : "0",
+          "sum" : "973"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 349688583,
+        "name" : "Time",
+        "dataTypeName" : "text",
+        "fieldName" : "time",
+        "position" : 11,
+        "renderTypeName" : "text",
+        "tableColumnId" : 62397777,
+        "width" : 148,
+        "cachedContents" : {
+          "largest" : "23:59",
+          "non_null" : 77,
+          "null" : 0,
+          "top" : [ {
+            "item" : "20:24",
+            "count" : 20
+          }, {
+            "item" : "03:50",
+            "count" : 19
+          }, {
+            "item" : "23:07",
+            "count" : 18
+          }, {
+            "item" : "13:05",
+            "count" : 17
+          }, {
+            "item" : "20:30",
+            "count" : 16
+          }, {
+            "item" : "11:14",
+            "count" : 15
+          }, {
+            "item" : "06:24",
+            "count" : 14
+          }, {
+            "item" : "17:57",
+            "count" : 13
+          }, {
+            "item" : "21:55",
+            "count" : 12
+          }, {
+            "item" : "17:45",
+            "count" : 11
+          }, {
+            "item" : "02:15",
+            "count" : 10
+          }, {
+            "item" : "00:19",
+            "count" : 9
+          }, {
+            "item" : "23:53",
+            "count" : 8
+          }, {
+            "item" : "03:27",
+            "count" : 7
+          }, {
+            "item" : "08:39",
+            "count" : 6
+          }, {
+            "item" : "02:25",
+            "count" : 5
+          }, {
+            "item" : "03:20",
+            "count" : 4
+          }, {
+            "item" : "12:07",
+            "count" : 3
+          }, {
+            "item" : "07:20",
+            "count" : 2
+          }, {
+            "item" : "18:57",
+            "count" : 1
+          } ],
+          "smallest" : "00:07"
+        },
+        "format" : { }
+      }, {
+        "id" : 349688584,
+        "name" : "Related",
+        "dataTypeName" : "text",
+        "fieldName" : "related",
+        "position" : 12,
+        "renderTypeName" : "text",
+        "tableColumnId" : 62397778,
+        "width" : 184,
+        "cachedContents" : {
+          "largest" : "MV/ROR",
+          "non_null" : 77,
+          "null" : 0,
+          "top" : [ {
+            "item" : "MV/Ped",
+            "count" : 20
+          }, {
+            "item" : "MV/FO",
+            "count" : 19
+          }, {
+            "item" : "MV/MC",
+            "count" : 18
+          }, {
+            "item" : "MV/ROR",
+            "count" : 17
+          }, {
+            "item" : "MV/PED",
+            "count" : 16
+          }, {
+            "item" : "MV/MV",
+            "count" : 15
+          }, {
+            "item" : "MC/FO",
+            "count" : 14
+          }, {
+            "item" : "MV/Bike",
+            "count" : 13
+          }, {
+            "item" : "MC/other",
+            "count" : 12
+          }, {
+            "item" : "MC/Other",
+            "count" : 11
+          } ],
+          "smallest" : "MC/FO"
+        },
+        "format" : { }
+      }, {
+        "id" : 349688585,
+        "name" : "charge",
+        "dataTypeName" : "text",
+        "fieldName" : "charge",
+        "position" : 13,
+        "renderTypeName" : "text",
+        "tableColumnId" : 62397779,
+        "width" : 172,
+        "cachedContents" : {
+          "largest" : "Pending",
+          "non_null" : 77,
+          "null" : 0,
+          "top" : [ {
+            "item" : "FTSRA",
+            "count" : 20
+          }, {
+            "item" : "N/A",
+            "count" : 19
+          }, {
+            "item" : "Intoxication Manslaughter",
+            "count" : 18
+          }, {
+            "item" : "Class C",
+            "count" : 17
+          }, {
+            "item" : "DOO",
+            "count" : 16
+          }, {
+            "item" : "NA",
+            "count" : 15
+          }, {
+            "item" : "None",
+            "count" : 14
+          }, {
+            "item" : "Pending",
+            "count" : 13
+          }, {
+            "item" : "FTSRA and Class A",
+            "count" : 12
+          } ],
+          "smallest" : "Class C"
+        },
+        "format" : { }
+      }, {
+        "id" : 349688586,
+        "name" : "Victim",
+        "dataTypeName" : "text",
+        "fieldName" : "victim",
+        "position" : 14,
+        "renderTypeName" : "text",
+        "tableColumnId" : 62397780,
+        "width" : 172,
+        "cachedContents" : {
+          "largest" : "passenger",
+          "non_null" : 77,
+          "null" : 0,
+          "top" : [ {
+            "item" : "n/a",
+            "count" : 20
+          }, {
+            "item" : "driver",
+            "count" : 19
+          }, {
+            "item" : "motorcyclist",
+            "count" : 18
+          }, {
+            "item" : "passenger",
+            "count" : 17
+          }, {
+            "item" : "driver (other)",
+            "count" : 16
+          }, {
+            "item" : "Driver",
+            "count" : 15
+          }, {
+            "item" : "child passenger",
+            "count" : 14
+          }, {
+            "item" : "mc driver",
+            "count" : 13
+          }, {
+            "item" : "both drivers",
+            "count" : 12
+          }, {
+            "item" : "driver & passenger",
+            "count" : 11
+          } ],
+          "smallest" : "both drivers"
+        },
+        "format" : { }
+      }, {
+        "id" : 349688587,
+        "name" : "Speeding",
+        "dataTypeName" : "text",
+        "fieldName" : "speeding",
+        "position" : 15,
+        "renderTypeName" : "text",
+        "tableColumnId" : 62397781,
+        "width" : 196,
+        "cachedContents" : {
+          "largest" : "Y",
+          "non_null" : 77,
+          "null" : 0,
+          "top" : [ {
+            "item" : "N",
+            "count" : 20
+          }, {
+            "item" : "Y",
+            "count" : 19
+          }, {
+            "item" : "n",
+            "count" : 18
+          }, {
+            "item" : "unk",
+            "count" : 17
+          }, {
+            "item" : "pending",
+            "count" : 16
+          } ],
+          "smallest" : "n"
+        },
+        "format" : { }
+      }, {
+        "id" : 349688588,
+        "name" : "Ran Red Light or Stop Sign",
+        "dataTypeName" : "text",
+        "fieldName" : "ran_red_light_or_stop_sign",
+        "position" : 16,
+        "renderTypeName" : "text",
+        "tableColumnId" : 62397782,
+        "width" : 412,
+        "cachedContents" : {
+          "largest" : "Y",
+          "non_null" : 77,
+          "null" : 0,
+          "top" : [ {
+            "item" : "N",
+            "count" : 20
+          }, {
+            "item" : "Y",
+            "count" : 19
+          }, {
+            "item" : "n",
+            "count" : 18
+          } ],
+          "smallest" : "n"
+        },
+        "format" : { }
+      }, {
+        "id" : 349688589,
+        "name" : "DL Status",
+        "dataTypeName" : "text",
+        "fieldName" : "dl_status",
+        "position" : 17,
+        "renderTypeName" : "text",
+        "tableColumnId" : 62397783,
+        "width" : 208,
+        "cachedContents" : {
+          "largest" : "unk (changed 10/3/16)",
+          "non_null" : 77,
+          "null" : 0,
+          "top" : [ {
+            "item" : "okay",
+            "count" : 20
+          }, {
+            "item" : "no MC license",
+            "count" : 19
+          }, {
+            "item" : "no DL",
+            "count" : 18
+          }, {
+            "item" : "unk (changed 10/3/16)",
+            "count" : 17
+          }, {
+            "item" : "suspended DL",
+            "count" : 16
+          }, {
+            "item" : "invalid",
+            "count" : 15
+          }, {
+            "item" : "invalid (veh 1)",
+            "count" : 14
+          }, {
+            "item" : "okay and unknown",
+            "count" : 13
+          } ],
+          "smallest" : "invalid"
+        },
+        "format" : { }
+      }, {
+        "id" : 349688590,
+        "name" : "SUSPECTED IMPAIRMENT",
+        "dataTypeName" : "text",
+        "fieldName" : "suspected_impairment",
+        "position" : 18,
+        "renderTypeName" : "text",
+        "tableColumnId" : 62397784,
+        "width" : 340,
+        "cachedContents" : {
+          "largest" : "UNKNOWN (Wm County)",
+          "non_null" : 77,
+          "null" : 0,
+          "top" : [ {
+            "item" : "PED  ",
+            "count" : 20
+          }, {
+            "item" : "UNKNOWN",
+            "count" : 19
+          }, {
+            "item" : "DRIVER  ",
+            "count" : 18
+          }, {
+            "item" : "DRIVER",
+            "count" : 17
+          }, {
+            "item" : "PED",
+            "count" : 16
+          }, {
+            "item" : "NONE",
+            "count" : 15
+          }, {
+            "item" : "UNKNOWN (Wm County)",
+            "count" : 14
+          }, {
+            "item" : "MC DRIVER",
+            "count" : 13
+          }, {
+            "item" : "SUSPECTED (no tox, but count as impaired)",
+            "count" : 12
+          }, {
+            "item" : "DRIVER (deceased)",
+            "count" : 11
+          }, {
+            "item" : "DRIVER (pending)",
+            "count" : 10
+          }, {
+            "item" : "PED (pending)",
+            "count" : 9
+          }, {
+            "item" : "PED (no tox done, see notes on victim)",
+            "count" : 8
+          } ],
+          "smallest" : "DRIVER"
+        },
+        "format" : { }
+      }, {
+        "id" : 349688591,
+        "name" : "restraint or helmet",
+        "dataTypeName" : "text",
+        "fieldName" : "restraint_or_helmet",
+        "position" : 19,
+        "renderTypeName" : "text",
+        "tableColumnId" : 62397785,
+        "width" : 328,
+        "cachedContents" : {
+          "largest" : "unknown",
+          "non_null" : 77,
+          "null" : 0,
+          "top" : [ {
+            "item" : "n/a",
+            "count" : 20
+          }, {
+            "item" : "unknown",
+            "count" : 19
+          }, {
+            "item" : "no helmet",
+            "count" : 18
+          }, {
+            "item" : "seatbelts worn",
+            "count" : 17
+          }, {
+            "item" : "helmet",
+            "count" : 16
+          }, {
+            "item" : "no seatbelt",
+            "count" : 15
+          }, {
+            "item" : "no helmet (not strapped)",
+            "count" : 14
+          }, {
+            "item" : "seatbelt worn",
+            "count" : 13
+          }, {
+            "item" : "no seatbelt ",
+            "count" : 12
+          }, {
+            "item" : " no helmet",
+            "count" : 11
+          } ],
+          "smallest" : "helmet"
+        },
+        "format" : { }
+      }, {
+        "id" : 349688592,
+        "name" : "TYPE OF ROAD",
+        "dataTypeName" : "text",
+        "fieldName" : "type_of_road",
+        "position" : 20,
+        "renderTypeName" : "text",
+        "tableColumnId" : 62397786,
+        "width" : 244,
+        "cachedContents" : {
+          "largest" : "other highway",
+          "non_null" : 77,
+          "null" : 0,
+          "top" : [ {
+            "item" : "local street",
+            "count" : 20
+          }, {
+            "item" : "high use roadway",
+            "count" : 19
+          }, {
+            "item" : "other highway",
+            "count" : 18
+          }, {
+            "item" : "IH35",
+            "count" : 17
+          } ],
+          "smallest" : "high use roadway"
+        },
+        "format" : { }
+      }, {
+        "id" : 349688593,
+        "name" : "FTSRA",
+        "dataTypeName" : "text",
+        "fieldName" : "ftsra",
+        "position" : 21,
+        "renderTypeName" : "text",
+        "tableColumnId" : 62397787,
+        "width" : 160,
+        "cachedContents" : {
+          "largest" : "y",
+          "non_null" : 77,
+          "null" : 0,
+          "top" : [ {
+            "item" : "y",
+            "count" : 20
+          }, {
+            "item" : "n",
+            "count" : 19
+          } ],
+          "smallest" : "n"
+        },
+        "format" : { }
+      }, {
+        "id" : 349688594,
+        "name" : "COORD X",
+        "dataTypeName" : "number",
+        "fieldName" : "coord_x",
+        "position" : 22,
+        "renderTypeName" : "number",
+        "tableColumnId" : 62397788,
+        "width" : 184,
+        "cachedContents" : {
+          "largest" : "-97.594177",
+          "non_null" : 77,
+          "average" : "-97.74532163636364",
+          "null" : 0,
+          "top" : [ {
+            "item" : "-97.746502",
+            "count" : 20
+          }, {
+            "item" : "-97.668397",
+            "count" : 19
+          }, {
+            "item" : "-97.785079",
+            "count" : 18
+          }, {
+            "item" : "-97.731357",
+            "count" : 17
+          }, {
+            "item" : "-97.716751",
+            "count" : 16
+          }, {
+            "item" : "-97.729061",
+            "count" : 15
+          }, {
+            "item" : "-97.813137",
+            "count" : 14
+          }, {
+            "item" : "-97.84266",
+            "count" : 13
+          }, {
+            "item" : "-97.772877",
+            "count" : 12
+          }, {
+            "item" : "-97.860751",
+            "count" : 11
+          }, {
+            "item" : "-97.755944",
+            "count" : 10
+          }, {
+            "item" : "-97.689117",
+            "count" : 9
+          }, {
+            "item" : "-97.709194",
+            "count" : 8
+          }, {
+            "item" : "-97.830063",
+            "count" : 7
+          }, {
+            "item" : "-97.831159",
+            "count" : 6
+          }, {
+            "item" : "-97.741652",
+            "count" : 5
+          }, {
+            "item" : "-97.731593",
+            "count" : 4
+          }, {
+            "item" : "-97.824728",
+            "count" : 3
+          }, {
+            "item" : "-97.832441",
+            "count" : 2
+          }, {
+            "item" : "-97.700108",
+            "count" : 1
+          } ],
+          "smallest" : "-97.895974",
+          "sum" : "-7526.389766"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 349688595,
+        "name" : "Y COORD",
+        "dataTypeName" : "number",
+        "fieldName" : "y_coord",
+        "position" : 23,
+        "renderTypeName" : "number",
+        "tableColumnId" : 62397789,
+        "width" : 184,
+        "cachedContents" : {
+          "largest" : "30.500154",
+          "non_null" : 77,
+          "average" : "30.29199914285714",
+          "null" : 0,
+          "top" : [ {
+            "item" : "30.224041",
+            "count" : 20
+          }, {
+            "item" : "30.443217",
+            "count" : 19
+          }, {
+            "item" : "30.195639",
+            "count" : 18
+          }, {
+            "item" : "30.356425",
+            "count" : 17
+          }, {
+            "item" : "30.408162",
+            "count" : 16
+          }, {
+            "item" : "30.362911",
+            "count" : 15
+          }, {
+            "item" : "30.324214",
+            "count" : 14
+          }, {
+            "item" : "30.428784",
+            "count" : 13
+          }, {
+            "item" : "30.221043",
+            "count" : 12
+          }, {
+            "item" : "30.252162",
+            "count" : 11
+          }, {
+            "item" : "30.328111",
+            "count" : 10
+          }, {
+            "item" : "30.330145",
+            "count" : 9
+          }, {
+            "item" : "30.203042",
+            "count" : 8
+          }, {
+            "item" : "30.22721",
+            "count" : 7
+          }, {
+            "item" : "30.236357",
+            "count" : 6
+          }, {
+            "item" : "30.23385",
+            "count" : 5
+          }, {
+            "item" : "30.330871",
+            "count" : 4
+          }, {
+            "item" : "30.172108",
+            "count" : 3
+          }, {
+            "item" : "30.236119",
+            "count" : 2
+          }, {
+            "item" : "30.357647",
+            "count" : 1
+          } ],
+          "smallest" : "30.104064",
+          "sum" : "2332.483934"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Public Domain"
+      },
+      "metadata" : {
+        "custom_fields" : {
+          "Strategic Plan Outcome (3-5 year horizon) Secondary" : {
+            "Secondary Strategic Outcome" : ""
+          },
+          "Digital Object Identifer (DOI)" : {
+            "DOI Number" : "https://doi.org/10.26000/043.000009"
+          },
+          "Imagine Austin (30 - Year horizon) Secondary Priority" : {
+            "Secondary Priority" : ""
+          },
+          "Additional Information" : {
+            "Department" : "Austin Police ",
+            "Frequency" : "As Needed"
+          },
+          "Strategic Plan Outcome (3-5 year horizon) Primary" : {
+            "Primary Strategic Outcome" : ""
+          },
+          "Imagine Austin (30 - Year horizon) Primary Priority" : {
+            "Primary Priority" : ""
+          },
+          "Catalog" : {
+            "Dataset Page" : ""
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        }
+      },
+      "owner" : {
+        "id" : "q374-e9d9",
+        "displayName" : "Ron MacKay",
+        "screenName" : "Ron MacKay",
+        "type" : "interactive",
+        "userSegment" : "site_member",
+        "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "q374-e9d9",
+        "displayName" : "Ron MacKay",
+        "screenName" : "Ron MacKay",
+        "type" : "interactive",
+        "userSegment" : "site_member",
+        "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+      },
+      "tags" : [ "police", "traffic", "fatality", "2016", "apd" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ "row-maik_3n9h-2w5j", "00000000-0000-0000-5956-3706E013E1ED", 0, 1521042375, null, 1521042375, null, "{ }", "Pedestrian", "1", "1", "16-0061621", "9700 Blk Lake Creek Pkwy", "AD", "2016-01-06T00:00:00", "Jan", "Wed", "23", "23:14", "MV/Ped", "FTSRA", "n/a", "N", "N", "okay", "PED  ", "n/a", "local street", "y", "-97.793878", "30.475234" ]
+, [ "row-w47v~ctar.h4s9", "00000000-0000-0000-B47D-E08789C57E3B", 0, 1521042375, null, 1521042375, null, "{ }", "Pedestrian", "2", "1", "16-0140992", "4800 E. Riverside Dr.", "HE", "2016-01-14T00:00:00", "Jan", "Thu", "14", "14:46", "MV/Ped", "N/A", "n/a", "N", "N", "okay", "UNKNOWN", "n/a", "high use roadway", "n", "-97.717471", "30.231659" ]
+, [ "row-4954-zfk7.k7fd", "00000000-0000-0000-CA92-73083D2A69BC", 0, 1521042375, null, 1521042375, null, "{ }", "Motor Vehicle", "3", "1", "16-0221932", "6300 blk E William Cannon", "FR", "2016-01-22T00:00:00", "Jan", "Fri", "23", "23:29", "MV/FO", "N/A", "driver", "Y", "N", "okay", "DRIVER  ", "unknown", "high use roadway", "n", "-97.739337", "30.170877" ]
+, [ "row-thqb.64x9.hz9b", "00000000-0000-0000-68C9-74EE7BE467AF", 0, 1521042375, null, 1521042375, null, "{ }", "Pedestrian", "4", "1", "16-0301529", "12300 N Lamar", "ED", "2016-01-30T00:00:00", "Jan", "Sat", "20", "20:01", "MV/Ped", "N/A", "n/a", "N", "N", "okay", "UNKNOWN", "n/a", "high use roadway", "n", "-97.679087", "30.402741" ]
+, [ "row-rdsq_pqx4_kn44", "00000000-0000-0000-577C-BAEFFB99D30D", 0, 1521042375, null, 1521042375, null, "{ }", "Motorcycle", "5", "1", "16-0450263", "Burleson Rd / McKinney Falls Pkwy", "HE", "2016-02-14T00:00:00", "Feb", "Sun", "2", "02:22", "MV/MC", "N/A", "motorcyclist", "Y", "N", "okay", "DRIVER", "no helmet", "local street", "n", "-97.698371", "30.191989" ]
+, [ "row-juaw_hyu6_3v7d", "00000000-0000-0000-07E1-8FC5BF9EB3E1", 0, 1521042375, null, 1521042375, null, "{ }", "Motor Vehicle", "6", "1", "16-0450294", "6800 Cooper Ln", "FR", "2016-02-14T00:00:00", "Feb", "Sun", "2", "02:36", "MV/ROR", "Intoxication Manslaughter", "passenger", "Y", "N", "okay", "DRIVER", "seatbelts worn", "local street", "n", "-97.791941", "30.197194" ]
+, [ "row-f8cs-rvat-fwer", "00000000-0000-0000-6DA5-315BCB412ADF", 0, 1521042375, null, 1521042375, null, "{ }", "Pedestrian", "7", "1", "16-0451375", "700 Montopolis", "HE", "2016-02-14T00:00:00", "Feb", "Sun", "19", "19:05", "MV/PED", "N/A", "n/a", "N", "N", "okay", "PED", "n/a", "local street", "n", "-97.695743", "30.236873" ]
+, [ "row-dv2r.iwaq.p3wu", "00000000-0000-0000-5550-F2513319278C", 0, 1521042375, null, 1521042375, null, "{ }", "Motorcycle", "8", "1", "16-0490903", "N US 183 Hwy Svrd NB/Pecan Park Blvd", "AD", "2016-02-18T00:00:00", "Feb", "Thu", "13", "13:14", "MV/MC", "Class C", "motorcyclist", "N", "Y", "no MC license", "NONE", "helmet", "other highway", "n", "-97.795248", "30.465592" ]
+, [ "row-edqx~qpa9~dubn", "00000000-0000-0000-764C-13602ABCA369", 0, 1521042375, null, 1521042375, null, "{ }", "Pedestrian", "9", "1", "16-0501840", "Riverside Dr/Willow Creek", "HE", "2016-02-19T00:00:00", "Feb", "Fri", "23", "23:08", "MV/Ped", "N/A", "n/a", "N", "N", "okay", "PED", "n/a", "high use roadway", "n", "-97.725656", "30.23768" ]
+, [ "row-jcdp.yjdb_ebzb", "00000000-0000-0000-6B7F-1F117422A2FF", 0, 1521042375, null, 1521042375, null, "{ }", "Motorcycle", "10", "1", "16-0570527", "10100 blk FM 2222", "AD", "2016-02-26T00:00:00", "Feb", "Fri", "9", "09:47", "MV/MC", "N/A", "motorcyclist", "Y", "N", "no DL", "NONE", "helmet", "high use roadway", "n", "-97.826296", "30.389103" ]
+, [ "row-azxe_8pb2-er53", "00000000-0000-0000-86B3-5A8E37995AFD", 0, 1521042375, null, 1521042375, null, "{ }", "Motor Vehicle", "11", "1", "16-0680636", "5700 N Mopac Expy Svrd SB", "BA", "2016-03-08T00:00:00", "Mar", "Tue", "10", "10:48", "MV/MV", "Class C", "driver (other)", "Y", "Y", "okay", "NONE", "seatbelts worn", "other highway", "n", "-97.755809", "30.337271" ]
+, [ "row-iusz-pndy_uk93", "00000000-0000-0000-E7E2-F8EA988C0A98", 0, 1521042375, null, 1521042375, null, "{ }", "Pedestrian", "12", "1", "16-0710293", "1100 Blk N IH35 SVRD NB", "CH", "2016-03-11T00:00:00", "Mar", "Fri", "5", "05:12", "MV/PED", "N/A", "n/a", "N", "N", "okay", "NONE", "n/a", "IH35", "n", "-97.73227", "30.270865" ]
+, [ "row-7e55_24f3~yffv", "00000000-0000-0000-3FA3-4071AEBE4428", 0, 1521042375, null, 1521042375, null, "{ }", "Motor Vehicle", "13", "1", "16-0760018", "1100 W Cesar Chavez St", "BA", "2016-03-16T00:00:00", "Mar", "Wed", "0", "00:07", "MV/FO", "N/A", "Driver", "Y", "N", "okay", "DRIVER", "seatbelts worn", "local street", "n", "-97.758001", "30.267707" ]
+, [ "row-x2c2.mqtb~z3j7", "00000000-0000-0000-CB06-1C10178EF30C", 0, 1521042375, null, 1521042375, null, "{ }", "Pedestrian", "14", "1", "16-0782023", "1100 S IH35 NB", "HE", "2016-03-18T00:00:00", "Mar", "Fri", "20", "20:47", "MV/Ped", "N/A", "n/a", "N", "N", "unk (changed 10/3/16)", "NONE", "n/a", "IH35", "y", "-97.735195", "30.247856" ]
+, [ "row-h24n.ftwv~jz5i", "00000000-0000-0000-9954-04CA9E231981", 0, 1521042375, null, 1521042375, null, "{ }", "Motor Vehicle", "15", "1", "16-0891859", "5100 blk Ponciana", "FR", "2016-03-29T00:00:00", "Mar", "Tue", "23", "23:59", "MV/FO", "Intoxication Manslaughter", "passenger", "Y", "N", "no DL", "DRIVER", "no seatbelt", "local street", "n", "-97.754654", "30.201896" ]
+, [ "row-8umq-spwh-ezdh", "00000000-0000-0000-41BC-679BC83BA161", 0, 1521042375, null, 1521042375, null, "{ }", "Motor Vehicle", "16", "1", "16-0840516", "Sunland Dr/Brodie Ln", "FR", "2016-03-24T00:00:00", "Mar", "Thu", "8", "08:58", "MV/MV", "N/A", "Driver", "N", "Y", "okay", "NONE", "unknown", "local street", "n", "-97.85995", "30.158302" ]
+, [ "row-y7ve~2ucj-jmfv", "00000000-0000-0000-B3A2-2B1175F84755", 0, 1521042375, null, 1521042375, null, "{ }", "Motorcycle", "17", "1", "16-0921012", "15500 Avery Ranch", "AD", "2016-04-01T00:00:00", "Apr", "Fri", "13", "13:29", "MC/FO", "DOO", "motorcyclist", "N", "N", "suspended DL", "UNKNOWN (Wm County)", "no helmet", "local street", "n", "-97.763114", "30.500154" ]
+, [ "row-d6fe-viwu_wxkc", "00000000-0000-0000-EDF6-C73A9C26A357", 0, 1521042375, null, 1521042375, null, "{ }", "Motorcycle", "18", "1", "16-0981477", "1500 Blk Grove Blvd", "HE", "2016-04-08T00:00:00", "Apr", "Fri", "18", "18:46", "MV/MC", "NA", "motorcyclist", "Y", "N", "okay", "NONE", "helmet", "local street", "n", "-97.705781", "30.232566" ]
+, [ "row-k4sa-d9q7~fnb3", "00000000-0000-0000-5948-DA93FD8902A8", 0, 1521042375, null, 1521042375, null, "{ }", "Motorcycle", "19", "1", "16-1100803", "9900 BLK Lake Creek PKWY", "AD", "2016-04-19T00:00:00", "Apr", "Tue", "12", "12:56", "MV/MC", "Class C", "motorcyclist", "N", "N", "okay", "MC DRIVER", "helmet", "local street", "n", "-97.789896", "30.470218" ]
+, [ "row-e6qi.kupp.y23s", "00000000-0000-0000-7055-BBC5CC942155", 0, 1521042375, null, 1521042375, null, "{ }", "Pedestrian", "20", "1", "16-1130332", "9200 blk Burnet Rd", "AD", "2016-04-22T00:00:00", "Apr", "Fri", "6", "06:21", "MV/Ped", "N/A", "n/a", "N", "N", "okay", "PED", "n/a", "high use roadway", "n", "-97.725935", "30.375228" ]
+, [ "row-f8xz~pkzw~aypu", "00000000-0000-0000-28BD-BC9E26A66861", 0, 1521042375, null, 1521042375, null, "{ }", "Motorcycle", "21", "1", "16-1141386", "1600 blk Royal Crest Dr", "HE", "2016-04-23T00:00:00", "Apr", "Sat", "18", "18:13", "MC/FO", "N/A", "motorcyclist", "N", "N", "okay", "MC DRIVER", "no helmet (not strapped)", "local street", "n", "-97.730194", "30.239088" ]
+, [ "row-bpnt.iv4d_q9cy", "00000000-0000-0000-9DF3-346FAEAB0C45", 0, 1521042375, null, 1521042375, null, "{ }", "Pedestrian", "22", "1", "16-1220390", "100 N IH 35 NB", "GE", "2016-05-01T00:00:00", "May", "Sun", "3", "03:20", "MV/PED", "N/A", "n/a", "N", "N", "okay", "PED", "n/a", "IH35", "n", "-97.736223", "30.261144" ]
+, [ "row-rmen-2wav~447g", "00000000-0000-0000-A540-9BA3A3734499", 0, 1521042375, null, 1521042375, null, "{ }", "Motor Vehicle", "23", "1", "16-1272087", "3100 Burleson Rd", "HE", "2016-05-06T00:00:00", "May", "Fri", "23", "23:18", "MV/FO", "N/A", "driver", "Y", "N", "no DL", "DRIVER", "seatbelts worn", "local street", "n", "-97.734101", "30.220622" ]
+, [ "row-i4ix.tppa.swcb", "00000000-0000-0000-95BA-C366C23889C3", 0, 1521042375, null, 1521042375, null, "{ }", "Pedestrian", "24", "1", "16-1341025", "7900 Blk Gault St", "ID", "2016-05-13T00:00:00", "May", "Fri", "14", "14:17", "MV/Ped", "N/A", "n/a", "N", "N", "okay", "NONE", "n/a", "local street", "n", "-97.718468", "30.350354" ]
+, [ "row-z58m-sukc.ruud", "00000000-0000-0000-1401-776D2507E38B", 0, 1521042375, null, 1521042375, null, "{ }", "Motor Vehicle", "25", "1", "16-1411671", "9500 blk Dessau Rd", "ED", "2016-05-20T00:00:00", "May", "Fri", "20", "20:35", "MV/MV", "N/A", "Driver", "Y", "N", "no DL", "NONE", "no seatbelt", "local street", "n", "-97.675053", "30.352273" ]
+, [ "row-eyjc~tkqk~dq2x", "00000000-0000-0000-EA2C-816F1335A2B9", 0, 1521042375, null, 1521042375, null, "{ }", "Pedestrian", "26", "1", "16-1431145", "5900 blk Cameron", "ID", "2016-05-22T00:00:00", "May", "Sun", "17", "17:05", "MV/Ped", "FTSRA", "n/a", "N", "N", "suspended DL", "NONE", "n/a", "local street", "n", "-97.700158", "30.316849" ]
+, [ "row-4rbi.8zvi~zmyt", "00000000-0000-0000-721B-A9DAF63CF547", 0, 1521042375, null, 1521042375, null, "{ }", "Pedestrian", "27", "1", "16-1461992", "5500 blk N IH-35", "ID", "2016-05-25T00:00:00", "May", "Wed", "23", "23:22", "MV/Ped", "N/A", "n/a", "N", "N", "okay", "PED", "n/a", "IH35", "n", "-97.709204", "30.311291" ]
+, [ "row-c8mj~5vqd~qfh5", "00000000-0000-0000-78D2-9DC1D1AF4C95", 0, 1521042375, null, 1521042375, null, "{ }", "Motor Vehicle", "28", "1", "16-1500519", "Braker Ln/Burnet Rd", "AD", "2016-05-29T00:00:00", "May", "Sun", "9", "09:05", "MV/MV", "N/A", "passenger", "N", "Y", "okay", "NONE", "seatbelts worn", "local street", "n", "-97.725626", "30.392347" ]
+, [ "row-unzt~nibp_gsfx", "00000000-0000-0000-00FB-B545AA6B3CEE", 0, 1521042375, null, 1521042375, null, "{ }", "Motor Vehicle", "29", "1", "16-1540103", "11200 Lakeline Mall", "AD", "2016-06-02T00:00:00", "Jun", "Thu", "3", "03:14", "MV/FO", "N/A", "Driver", "Y", "N", "okay", "DRIVER", "no seatbelt", "local street", "n", "-97.803406", "30.471766" ]
+, [ "row-dyri-sbbx_9t7h", "00000000-0000-0000-EA66-09C70F76EB98", 0, 1521042375, null, 1521042375, null, "{ }", "Pedestrian", "30", "1", "16-1591804", "Spicewood Springs/Rustic Rock", "AD", "2016-06-07T00:00:00", "Jun", "Tue", "22", "22:14", "MV/PED", "None", "n/a", "N", "N", "okay", "NONE", "n/a", "local street", "n", "-97.781239", "30.430139" ]
+, [ "row-ez6b-4psh.xp6q", "00000000-0000-0000-60DE-33D0C7BD78EB", 0, 1521042375, null, 1521042375, null, "{ }", "Motor Vehicle", "31", "1", "16-1640183", "2400 S IH35 NB", "HE", "2016-06-12T00:00:00", "Jun", "Sun", "3", "03:32", "MV/MV", "Intoxication Manslaughter", "driver (other)", "Y", "N", "suspended DL", "DRIVER", "seatbelt worn", "other highway", "n", "-97.741923", "30.232282" ]
+, [ "row-muit~gpt7~dwjk", "00000000-0000-0000-3814-0936C35C89D4", 0, 1521042375, null, 1521042375, null, "{ }", "Pedestrian", "32", "1", "16-1851779", "8007 Burnet Rd", "ID", "2016-07-03T00:00:00", "Jul", "Sun", "22", "22:30", "MV/Ped", "N/A", "n/a", "n", "n", "okay", "PED", "n/a", "local street", "n", "-97.730598", "30.357174" ]
+, [ "row-izty_iyxr.ddks", "00000000-0000-0000-7410-B4C37153F4EC", 0, 1521042375, null, 1521042375, null, "{ }", "Motor Vehicle", "33", "1", "16-1881009", "EB HWY 290 Frontage at Decker Ln.", "CH", "2016-07-06T00:00:00", "Jul", "Wed", "15", "15:16", "MV/MV", "N/A", "driver", "Y", "Y", "okay", "NONE", "seatbelts worn", "other highway", "n", "-97.607401", "30.334455" ]
+, [ "row-4tcs.fggw-cw9i", "00000000-0000-0000-9ACC-884A788F8481", 0, 1521042375, null, 1521042375, null, "{ }", "Pedestrian", "34", "1", "16-1910390", "E PARMER LN / HARRISGLENN DR", "ED", "2016-07-09T00:00:00", "Jul", "Sat", "5", "05:49", "MV/Ped", "N/A", "n/a", "n", "n", "okay", "NONE", "n/a", "high use roadway", "n", "-97.654923", "30.399548" ]
+, [ "row-dst9~dsen~hk5b", "00000000-0000-0000-FEFA-C832FF42E2FE", 0, 1521042375, null, 1521042375, null, "{ }", "Motor Vehicle", "35", "1", "16-1920479", "8300 Mesa Dr", "BA", "2016-07-10T00:00:00", "Jul", "Sun", "6", "06:40", "MV/FO", "N/A", "driver", "Y", "Y", "okay", "DRIVER", "seatbelts worn", "local street", "n", "-97.755432", "30.374391" ]
+, [ "row-578r_wuph-8hnz", "00000000-0000-0000-2BC3-B22D0154ED8D", 0, 1521042375, null, 1521042375, null, "{ }", "Motor Vehicle", "36", "1", "16-2021185", "3300 SH 130 S", "HE", "2016-07-20T00:00:00", "Jul", "Wed", "17", "17:09", "MV/ROR", "N/A", "driver", "N", "N", "okay", "NONE", "seatbelt worn", "other highway", "n", "-97.622248", "30.20151" ]
+, [ "row-nh3a-8t7j_dmbi", "00000000-0000-0000-EB0A-3C3E83A3BC54", 0, 1521042375, null, 1521042375, null, "{ }", "Motor Vehicle", "37", "1", "16-2060277", "500 S Mopac SB", "DA", "2016-07-24T00:00:00", "Jul", "Sun", "2", "02:30", "MV/FO", "N/A", "driver", "N", "N", "okay", "DRIVER", "no seatbelt ", "other highway", "n", "-97.775075", "30.269929" ]
+, [ "row-pvtt~qf76_8dhz", "00000000-0000-0000-BA38-9BBE921332F6", 0, 1521042375, null, 1521042375, null, "{ }", "Motor Vehicle", "38", "1", "16-2041963", "5600 W Parmer Ln", "AD", "2016-07-23T00:00:00", "Jul", "Sat", "23", "23:32", "MV/MV", "None", "child passenger", "N", "Y", "okay", "NONE", "seatbelt worn", "high use roadway", "n", "-97.736062", "30.437194" ]
+, [ "row-zrk8~4dje_xaj5", "00000000-0000-0000-D78E-F2A50C39CEC2", 0, 1521042375, null, 1521042375, null, "{ }", "Bicycle", "39", "1", "16-1921728", "Bluff Springs/Chateau Village Way", "FR", "2016-07-10T00:00:00", "Jul", "Sun", "23", "23:40", "MV/Bike", "FTSRA", "n/a", "N", "N", "okay", "NONE", "no helmet", "local street", "y", "-97.768808", "30.173442" ]
+, [ "row-hipa~h4bd_h5g2", "00000000-0000-0000-C3E9-B47B5192F093", 0, 1521042375, null, 1521042375, null, "{ }", "Motor Vehicle", "40", "1", "16-2221218", "400 FM 1327", "FR", "2016-08-09T00:00:00", "Aug", "Tue", "16", "16:21", "MV/MV", "N/A", "driver", "N", "N", "okay", "DRIVER", "seatbelt worn", "local street", "n", "-97.792588", "30.113096" ]
+, [ "row-vttq_6ijf.chpt", "00000000-0000-0000-64C6-4BE64C73DB4D", 0, 1521042375, null, 1521042375, null, "{ }", "Pedestrian", "41", "1", "16-2260245", "40 S IH35 NB", "GE", "2016-08-13T00:00:00", "Aug", "Sat", "2", "02:07", "MV/Ped", "N/A", "n/a", "N", "N", "okay", "PED", "n/a", "IH35", "n", "-97.736646", "30.254833" ]
+, [ "row-i34t.7rmn.5ur3", "00000000-0000-0000-13FE-3716F732D034", 0, 1521042375, null, 1521042375, null, "{ }", "Motor Vehicle", "42", "1", "16-2321719", "3300 blk S IH35 NB Svrd", "HE", "2016-08-19T00:00:00", "Aug", "Fri", "20", "20:24", "MV/FO", "N/A", "driver", "Y", "N", "okay", "DRIVER", "seatbelt worn", "IH35", "n", "-97.746502", "30.224041" ]
+, [ "row-cp2z~i3vg.2zz2", "00000000-0000-0000-25D2-7B4253D3496A", 0, 1521042375, null, 1521042375, null, "{ }", "Motor Vehicle", "43", "1", "16-2330343", "15000 Blk N IH35 SVRD SB", "ED", "2016-08-20T00:00:00", "Aug", "Sat", "3", "03:50", "MV/FO", "Intoxication Manslaughter", "passenger", "N", "N", "okay", "DRIVER", "no seatbelt", "IH35", "n", "-97.668397", "30.443217" ]
+, [ "row-nink.xx33.aud8", "00000000-0000-0000-59A4-B6284F3F4A70", 0, 1521042375, null, 1521042375, null, "{ }", "Pedestrian", "44", "1", "16-2331844", "Wm Cannon/Bill Hughes Rd", "FR", "2016-08-20T00:00:00", "Aug", "Sat", "23", "23:07", "MV/Ped", "FTSRA", "n/a", "N", "N", "no DL", "NONE", "n/a", "high use roadway", "y", "-97.785079", "30.195639" ]
+, [ "row-rv4i_dyz4.69u3", "00000000-0000-0000-CCB7-D971364F2CA0", 0, 1521042375, null, 1521042375, null, "{ }", "Motor Vehicle", "45", "1", "16-2360858", "2400 Blk of W. Anderson Ln", "BA", "2016-08-23T00:00:00", "Aug", "Tue", "13", "13:05", "MV/MV", "Class C", "passenger", "N", "N", "okay", "NONE", "seatbelts worn", "local street", "n", "-97.731357", "30.356425" ]
+, [ "row-8eb6~ygss~xn6w", "00000000-0000-0000-15FE-AC3FAD23E620", 0, 1521042375, null, 1521042375, null, "{ }", "Motorcycle", "46", "1", "16-2431548", "10800 N Mopac", "AD", "2016-08-30T00:00:00", "Aug", "Tue", "20", "20:30", "MV/MC", "Class C", "mc driver", "Y", "N", "okay", "NONE", "helmet", "other highway", "n", "-97.716751", "30.408162" ]
+, [ "row-7vy3.c5kf.hrvt", "00000000-0000-0000-32DD-8FC1DCA5F256", 0, 1521042375, null, 1521042375, null, "{ }", "Motorcycle", "47", "1", "16-2450740", "8300 blk Burnet Rd", "BA", "2016-09-01T00:00:00", "Sep", "Thu", "11", "11:14", "MV/MC", "Class C", "mc driver", "N", "N", "suspended DL", "NONE", "helmet", "local street", "n", "-97.729061", "30.362911" ]
+, [ "row-uy55.kub7.7uck", "00000000-0000-0000-6C9C-868BBD3DBDB1", 0, 1521042375, null, 1521042375, null, "{ }", "Motor Vehicle", "48", "2", "16-2540406", "2610 N. Capital of Texas Hwy", "BA", "2016-09-10T00:00:00", "Sep", "Sat", "6", "06:24", "MV/MV", "N/A", "both drivers", "N", "N", "okay", "SUSPECTED (no tox, but count as impaired)", "seatbelts worn", "other highway", "n", "-97.813137", "30.324214" ]
+, [ "row-s6xn_ztu4.jnp2", "00000000-0000-0000-4FF0-32B0491A8F54", 0, 1521042375, null, 1521042375, null, "{ }", "Motor Vehicle", "49", "1", "16-2541081", "8900 N. FM 620/Boulder Ln", "AD", "2016-09-10T00:00:00", "Sep", "Sat", "17", "17:57", "MV/MV", "N/A", "driver", "N", "N", "okay", "NONE", "seatbelts worn", "other highway", "n", "-97.84266", "30.428784" ]
+, [ "row-vbcc.g72z~qqf5", "00000000-0000-0000-FFA2-9B9CFA8D58AE", 0, 1521042375, null, 1521042375, null, "{ }", "Pedestrian", "50", "1", "16-2621675", "South 1st/St Elmo", "DA", "2016-09-18T00:00:00", "Sep", "Sun", "21", "21:55", "MV/Ped", "N/A", "n/a", "N", "N", "okay", "PED", "n/a", "local street", "n", "-97.772877", "30.221043" ]
+, [ "row-q8ha.y8i7_f9sr", "00000000-0000-0000-9D46-044A487A989F", 0, 1521042375, null, 1521042375, null, "{ }", "Motorcycle", "51", "1", "16-2631318", "6800 Blk Southwest Pkwy", "DA", "2016-09-19T00:00:00", "Sep", "Mon", "17", "17:45", "MV/MC", "Class C", "mc driver", "N", "N", "okay", "DRIVER (deceased)", "helmet", "high use roadway", "n", "-97.860751", "30.252162" ]
+, [ "row-7tu5~qg6u~yvbp", "00000000-0000-0000-96BD-B5BCAC9547CA", 0, 1521042375, null, 1521042375, null, "{ }", "Motorcycle", "52", "1", "16-2720145", "5000 N Mopac Expy SB", "BA", "2016-09-28T00:00:00", "Sep", "Wed", "2", "02:15", "MV/MC", "N/A", "mc driver", "Y", "N", "no DL", "MC DRIVER", "no helmet", "other highway", "n", "-97.755944", "30.328111" ]
+, [ "row-pxxr-awra.58tx", "00000000-0000-0000-9B64-CD5ED01361CA", 0, 1521042375, null, 1521042375, null, "{ }", "Motor Vehicle", "53", "1", "16-2760037", "7500 blk Cameron Rd", "ID", "2016-10-02T00:00:00", "Oct", "Sun", "0", "00:19", "MV/FO", "N/A", "driver", "Y", "N", "no DL", "DRIVER", "seatbelt worn", "local street", "n", "-97.689117", "30.330145" ]
+, [ "row-4xfp_xvie-y7tg", "00000000-0000-0000-32E7-D7A3024F368A", 0, 1521042375, null, 1521042375, null, "{ }", "Motor Vehicle", "54", "1", "16-2861999", "6700 blk Metropolis", "HE", "2016-10-12T00:00:00", "Oct", "Wed", "23", "23:53", "MV/FO", "N/A", "driver", "Y", "N", "suspended DL", "DRIVER", "no seatbelt", "local street", "n", "-97.709194", "30.203042" ]
+, [ "row-5u3s~5fki~rcfn", "00000000-0000-0000-7B7C-1136A33E4CEE", 0, 1521042375, null, 1521042375, null, "{ }", "Motor Vehicle", "55", "1", "16-2890341", "5700 blk S Mopac NB", "DA", "2016-10-15T00:00:00", "Oct", "Sat", "3", "03:27", "MV/FO", "N/A", "driver", "Y", "N", "okay", "DRIVER", "no seatbelt", "other highway", "n", "-97.830063", "30.22721" ]
+, [ "row-sv73_m6kq_dqut", "00000000-0000-0000-FF3A-29FD4D4B5ED7", 0, 1521042375, null, 1521042375, null, "{ }", "Motor Vehicle", "56", "1", "16-2870420", "W US 290 EB to S Mopac", "DA", "2016-10-13T00:00:00", "Oct", "Thu", "8", "08:39", "MV/MV", "Pending", "driver", "N", "N", "okay", "NONE", "seatbelts worn", "other highway", "n", "-97.831159", "30.236357" ]
+, [ "row-9nqu-5y4g.qds7", "00000000-0000-0000-C96F-FFCDB3E80CA1", 0, 1521042375, null, 1521042375, null, "{ }", "Motor Vehicle", "57", "1", "16-2930162", "2500 blk S IH35 SB", "DA", "2016-10-19T00:00:00", "Oct", "Wed", "2", "02:25", "MV/FO", "N/A", "driver", "Y", "N", "okay", "DRIVER", "no seatbelt", "IH35", "n", "-97.741652", "30.23385" ]
+, [ "row-n826.hdgi-camc", "00000000-0000-0000-9878-96B9A56B7D05", 0, 1521042375, null, 1521042375, null, "{ }", "Motor Vehicle", "58", "1", "16-3000186", "1400 W Koenig Ln", "ID", "2016-10-26T00:00:00", "Oct", "Wed", "3", "03:20", "MV/MV", "Class C", "driver", "unk", "N", "okay", "DRIVER", "seatbelt worn", "local street", "n", "-97.731593", "30.330871" ]
+, [ "row-zr4k-9rw5.25yn", "00000000-0000-0000-E8C3-973DC4421200", 0, 1521042375, null, 1521042375, null, "{ }", "Motor Vehicle", "59", "1", "16-3000728", "10000 Manchaca Rd", "FR", "2016-10-26T00:00:00", "Oct", "Wed", "12", "12:07", "MV/MV", "DOO", "driver", "N", "N", "okay", "DRIVER", "no seatbelt", "high use roadway", "n", "-97.824728", "30.172108" ]
+, [ "row-wy9q.7vuc_a9s7", "00000000-0000-0000-6898-481CAC04C1B7", 0, 1521042375, null, 1521042375, null, "{ }", "Bicycle", "60", "1", "16-3100481", "5200 W US 290 HWY EB", "DA", "2016-11-05T00:00:00", "Nov", "Sat", "7", "07:20", "MV/Bike", "FTSRA and Class A", "n/a", "N", "N", "invalid", "NONE", "no helmet", "other highway", "y", "-97.832441", "30.236119" ]
+, [ "row-4nxp.igam~3is7", "00000000-0000-0000-0F52-0772D5DD596A", 0, 1521042375, null, 1521042375, null, "{ }", "Pedestrian", "61", "1", "16-3131560", "8900 N LAMAR BLVD ", "ED", "2016-11-08T00:00:00", "Nov", "Mon", "6", "18:57", "MV/Ped", "N/A", "n/a", "N", "N", "okay", "PED", "n/a", "high use roadway", "n", "-97.700108", "30.357647" ]
+, [ "row-axf6_rt8e.4wb9", "00000000-0000-0000-FF7C-98325BB178DB", 0, 1521042375, null, 1521042375, null, "{ }", "Motorcycle", "62", "1", "16-3161707", "13700 S IH 35 SVRD SB", "FR", "2016-11-11T00:00:00", "Nov", "Fri", "8", "20:21", "MC/other", "N/A", "mc driver", "N", "N", "okay", "DRIVER", "helmet", "IH35", "n", "-97.811354", "30.104064" ]
+, [ "row-udi4.2kvz_k5jd", "00000000-0000-0000-DDDF-4F2AD6E97AA5", 0, 1521042375, null, 1521042375, null, "{ }", "Pedestrian", "63", "1", "16-3210249", "5300 N IH 35 SB", "ID", "2016-11-16T00:00:00", "Nov", "Wed", "5", "05:50", "MV/Ped", "N/A", "n/a", "N", "N", "invalid (veh 1)", "PED", "n/a", "IH35", "n", "-97.70943", "30.311346" ]
+, [ "row-zj2g.f3tv~af29", "00000000-0000-0000-3D31-6D6D10E38793", 0, 1521042375, null, 1521042375, null, "{ }", "Pedestrian", "64", "1", "16-3111517", "800 Wagon Trail", "ED", "2016-11-06T00:00:00", "Nov", "Sun", "8", "20:34", "MV/Ped", "N/A", "n/a", "N", "N", "okay", "NONE", "n/a", "local street", "n", "-97.688996", "30.377419" ]
+, [ "row-axjz.3qnb-acbr", "00000000-0000-0000-AEC3-2EC1957884A3", 0, 1521042375, null, 1521042375, null, "{ }", "Motor Vehicle", "65", "2", "16-3271364", "10000 E US 290 Hwy SVRD EB", "CH", "2016-11-22T00:00:00", "Nov", "Tue", "19", "19:31", "MV/MV", "N/A", "driver & passenger", "N", "N", "suspended DL", "DRIVER (pending)", "seatbelts worn", "other highway", "n", "-97.594177", "30.338692" ]
+, [ "row-6xb7_itpk-8idi", "00000000-0000-0000-01F9-EFC9D12A4490", 0, 1521042375, null, 1521042375, null, "{ }", "Pedestrian", "66", "1", "16-3280195", "10700 blk IH35 NB ", "FR", "2016-11-23T00:00:00", "Nov", "Wed", "3", "03:34", "MV/Ped", "N/A", "n/a", "N", "N", "okay and unknown", "PED (pending)", "n/a", "IH35", "y", "-97.793833", "30.145808" ]
+, [ "row-zh5x-u46f_jwzk", "00000000-0000-0000-89E2-A285D7244FFD", 0, 1521042375, null, 1521042375, null, "{ }", "Motorcycle", "67", "1", "16-3161617", "1300 Lockhart Hwy (Bastrop NB to Ben White WB)", "HE", "2016-11-11T00:00:00", "Nov", "Fri", "21", "21:44", "MC/Other", "N/A", "driver", "N", "N", "no MC license", "DRIVER", " no helmet", "other highway", "n", "-97.682105", "30.223902" ]
+, [ "row-3wpd_rwbd.7chc", "00000000-0000-0000-6867-B388D209578E", 0, 1521042375, null, 1521042375, null, "{ }", "Pedestrian", "68", "1", "16-3290999", "6800 N IH35 SB", "ID", "2016-11-24T00:00:00", "Nov", "Thu", "18", "18:37", "MV/Ped", "N/A", "n/a", "N", "N", "okay", "PED (pending)", "n/a", "IH35", "n", "-97.705601", "30.329808" ]
+, [ "row-mgi5_9sfa.zwsf", "00000000-0000-0000-D4AC-350131061A85", 0, 1521042375, null, 1521042375, null, "{ }", "Motor Vehicle", "69", "1", "16-3301094", "7000 N Lamar Blvd", "ID", "2016-11-25T00:00:00", "Nov", "Fri", "19", "19:47", "MV/FO", "N/A", "driver", "Y", "N", "okay", "DRIVER (pending)", "seatbelt worn", "high use roadway", "n", "-97.718872", "30.33763" ]
+, [ "row-pirm.u593-vfkm", "00000000-0000-0000-5C59-A6FD69011CC1", 0, 1521042375, null, 1521042375, null, "{ }", "Pedestrian", "70", "1", "16-3341248", "3300 blk Manor Rd", "BA", "2016-11-29T00:00:00", "Nov", "Tue", "21", "21:13", "MV/Ped", "N/A", "n/a", "N", "N", "okay", "NONE", "n/a", "local street", "n", "-97.702597", "30.286928" ]
+, [ "row-xnvx_ptzb.d7m7", "00000000-0000-0000-286B-B7108297755A", 0, 1521042375, null, 1521042375, null, "{ }", "Pedestrian", "71", "1", "16-3340717", "2200 S IH35 NB", "HE", "2016-11-29T00:00:00", "Nov", "Tue", "14", "14:15", "MV/Ped", "N/A", "n/a", "N", "N", "okay", "DRIVER", "n/a", "IH35", "n", "-97.740043", "30.235451" ]
+, [ "row-67tx.g759_cvrb", "00000000-0000-0000-D0B4-916587DBE234", 0, 1521042375, null, 1521042375, null, "{ }", "Motor Vehicle", "72", "1", "16-3420429", "E Hwy 71 WB/S SH130 Svrd SB", "HE", "2016-12-07T00:00:00", "Dec", "Wed", "8", "08:22", "MV/MV", "Class C", "driver", "Y", "Y", "okay", "NONE", "seatbelt worn", "other highway", "n", "-97.624398", "30.195326" ]
+, [ "row-a4di-eiih-jmt7", "00000000-0000-0000-9F0D-E429A7497842", 0, 1521042375, null, 1521042375, null, "{ }", "Motor Vehicle", "73", "1", "16-3530419", "8700 blk W SH71", "DA", "2016-12-18T00:00:00", "Dec", "Sun", "3", "03:38", "MV/FO", "Pending", "passenger", "pending", "N", "okay", "NONE", "no seatbelt", "other highway", "y", "-97.895974", "30.250702" ]
+, [ "row-dnfw_qsxm_eu66", "00000000-0000-0000-1CE3-350DDADDD5AD", 0, 1521042375, null, 1521042375, null, "{ }", "Motor Vehicle", "74", "1", "16-3560215", "300 W Ben White", "DA", "2016-12-21T00:00:00", "Dec", "Wed", "5", "05:47", "MV/FO", "N/A", "driver", "N", "N", "okay", "DRIVER", "no seatbelt", "other highway", "n", "-97.766961", "30.224881" ]
+, [ "row-zpgh.wfmh_a92w", "00000000-0000-0000-90BA-F4B64BAE9141", 0, 1521042375, null, 1521042375, null, "{ }", "Pedestrian", "75", "1", "16-3561018", "Congress Ave/Little Texas Ln", "FR", "2016-12-21T00:00:00", "Dec", "Wed", "16", "16:13", "MV/Ped", "Class C", "n/a", "N", "N", "okay", "NONE", "n/a", "high use roadway", "n", "-97.775528", "30.202493" ]
+, [ "row-rtyz~zzvq~jp3d", "00000000-0000-0000-007F-B7078870F0B6", 0, 1521042375, null, 1521042375, null, "{ }", "Pedestrian", "76", "1", "16-3581664", "1400 S Capital of Tx Hwy NB", "DA", "2016-12-23T00:00:00", "Dec", "Fri", "22", "22:10", "MV/Ped", "N/A", "n/a", "N", "N", "okay", "PED", "n/a", "other highway", "n", "-97.819543", "30.277537" ]
+, [ "row-3jki.f9wb-d7cs", "00000000-0000-0000-A1FC-16ECF19B0215", 0, 1521042375, null, 1521042375, null, "{ }", "Pedestrian", "77", "1", "16-3301144", "Congress Ave/Sheraton Ave", "DA", "2016-11-25T00:00:00", "Nov", "Fri", "17", "17:58", "MV/Ped", "FTSRA", "n/a", "N", "N", "okay", "PED (no tox done, see notes on victim)", "n/a", "high use roadway", "y", "-97.768774", "30.215157" ]
+ ]
+}
